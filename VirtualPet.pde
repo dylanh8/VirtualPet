@@ -33,8 +33,7 @@ void draw(){
    ellipse(342,284,10,11);
   ellipse(266,284,10,11);
   //nose
-  fill(#FFA7FB);
-  arc(300,350,60,60,4.2, 5.2);
+  
   //teeth
   fill(#FFFFFF);
   rect(280,340, 20, 45);
