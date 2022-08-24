@@ -3,7 +3,8 @@ void setup(){
   //some of your code here
 }
 void draw(){
-   //ears
+  background(#7569E8);
+  //ears
   fill(#FFFFFF);
   ellipse(300, 170, 40, 300);
   ellipse(240, 170, 40, 300);
@@ -36,7 +37,22 @@ void draw(){
   arc(300,350,60,60,4.2, 5.2);
   //teeth
   fill(#FFFFFF);
-  rect(290,340, 20, 45);
-  rect(310,340, 20, 45);
-}
+  rect(280,340, 20, 45);
+  rect(300,340, 20, 45);
+  //whisker patches
+   fill(#FFA7FB);
+   rotate(0.3);
+  ellipse(450, 240, 40, 50);
+   fill(#FFA7FB);
+   rotate(-0.7);
+  ellipse(80, 427, 40, 50);
+  //whiskers
+  rotate(0.4);
+  line(437, 310, 360, 350);
+  line(362,364, 448,358);
+  line(357,379,424,400);
+  line(247,350,152,330);
+  line(232, 360, 155,366);
+  line(240,376, 176,395);
+  }
 
