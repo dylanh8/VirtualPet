@@ -3,7 +3,7 @@ void setup(){
   size(750,750);
 }
 void draw(){
-  background(#7569E8);
+  background(#7569E0);
   //ears
   fill(#FFFFFF);
   ellipse(300, 170, 40, 300);
