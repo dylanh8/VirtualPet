@@ -1,6 +1,9 @@
 
 void setup(){
   size(600,600);
+  headline("My Pet Bunny");
+  footer("Lucretia");
+  
 }
 void draw(){
   background(#7569E0);
